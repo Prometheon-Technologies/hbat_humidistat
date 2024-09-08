@@ -1,5 +1,8 @@
-extern "C" {
-void app_main() {
-  // Entry point to the application
+#include <Arduino.h>
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
 }
-}
+
+void loop() { }
